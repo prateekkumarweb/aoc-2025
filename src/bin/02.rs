@@ -2,7 +2,7 @@ use adv_code_2025::*;
 use anyhow::*;
 use code_timing_macros::time_snippet;
 use const_format::concatcp;
-use std::collections::{HashMap, HashSet};
+use std::collections::HashSet;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
